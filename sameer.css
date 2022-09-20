@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-  --primary-color:#a7f3d0;
+  --primary-color:#be185d
   --off-white: #bec3c5;
   --dark-gray: #ed38d2;
 }
@@ -121,11 +121,11 @@ hr {
 .hero .hero-heading {
   text-align: center;
   padding-top: 1rem;
-  color: #a7f3d0
+  color: #be185d
 }
 
 .hero .hero-heading .heading-inverted {
-  color:#a7f3d0
+  color:#be185d
   ;
 }
 
