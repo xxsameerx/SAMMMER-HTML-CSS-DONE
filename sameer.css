@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-  --primary-color:#ed38d2;
+  --primary-color:#be185d;
   --off-white: #bec3c5;
   --dark-gray: #ed38d2;
 }
@@ -121,11 +121,11 @@ hr {
 .hero .hero-heading {
   text-align: center;
   padding-top: 1rem;
-  color: var(--dark-gray);
+  color:#be185d;
 }
 
 .hero .hero-heading .heading-inverted {
-  color: var(--off-white)
+  color:#be185d
   ;
 }
 
@@ -209,3 +209,17 @@ hr {
   .link-primary {
     display: block;
   }
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
