@@ -39,6 +39,7 @@ hr {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
+
 }
 
 .link-primary {
@@ -78,8 +79,8 @@ hr {
 .navigation {
   background-color: var(--primary-color);
   color: white;
-  padding: 1rem;
-  border-bottom-left-radius: 1rem;
+  padding: 1.4rem;
+
 }
 
 .navigation .nav-brand {
@@ -87,6 +88,7 @@ hr {
 }
 
 .nav-brand a {
+  font-size: 28px;
   text-decoration: none;
   color: black;
 }
@@ -97,7 +99,7 @@ hr {
 }
 
 .navigation .link {
-  color: white;
+  color: black;
 }
 
 .navigation .link-active {
@@ -152,7 +154,7 @@ hr {
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
-  color: white;
+  color:black;
   border-top-right-radius: 1rem;
 }
 
@@ -184,6 +186,42 @@ hr {
 .showcase-list p {
   padding-bottom: 1rem;
 }
+.button{
+  background-color:white;
+  border: outset whitesmoke;
+  color: yellow;
+  padding: 9px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  border-radius: 8px;
+  transition:ease-out 0.3s;
+  
+}
+.button:hover{
+  cursor: pointer;
+  background-color:#be185d;
+  color: red;
+}
+.blog-btn{
+    background-color:var(--off-white);
+  color:black;
+  border: inset red;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  border-radius: 8px;
+  transition:ease-out 0.3s;
+}
+.blog-btn:hover{
+  background-color:#be185d;
+  cursor: pointer;
+}
 
 /** blogs **/
 
@@ -209,17 +247,4 @@ hr {
   .link-primary {
     display: block;
   }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
