@@ -81,7 +81,8 @@ hr {
 .navigation {
   background-color: var(--primary-color);
   color: white;
-  padding: 1.4rem;
+  padding: 1.3rem;
+  border: 2px outset black
 
 }
 
@@ -90,7 +91,7 @@ hr {
 }
 
 .nav-brand a {
-  font-size: 28px;
+  font-size: 25px;
   text-decoration: none;
   color: black;
 }
@@ -140,7 +141,7 @@ hr {
   margin: 2rem 0;
   border-radius: 1rem;
   text-align: center;
-  border: 4px outset #be185d;
+  border: 2px outset #be185d;
 
 }
 
@@ -156,10 +157,11 @@ hr {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 2rem 1rem;
+  padding: 2rem 8rem ;
   text-align: center;
   color:black;
   border-top-right-radius: 1rem;
+  border: 2px solid black;
 }
 
 .footer .link {
