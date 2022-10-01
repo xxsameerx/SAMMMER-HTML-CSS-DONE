@@ -26,12 +26,14 @@ hr {
 /** container **/
 .container {
   padding: 0rem 1rem;
+  
 }
 
 .container-center {
   max-width: 900px;
   width: 100%;
   margin: auto;
+ 
 }
 
 /** links **/
@@ -138,6 +140,8 @@ hr {
   margin: 2rem 0;
   border-radius: 1rem;
   text-align: center;
+  border: 4px outset #be185d;
+
 }
 
 .section h1 {
