@@ -153,13 +153,14 @@ hr {
 
 .ow {
   background-color: var(--off-white);
+  border: 3px outset #be185d;
 }
 
 /** footers **/
 
 .footer {
   background-color: var(--primary-color);
-  padding: 1rem 5rem ;
+  padding: 1rem 0rem ;
   text-align: center;
   color:black;
   border-top-right-radius: 1rem;
