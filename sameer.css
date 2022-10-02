@@ -140,8 +140,8 @@ hr {
 /** sections **/
 
 .section {
-  padding: 2rem;
-  margin: 2rem 0;
+  padding: 1.5rem;
+  margin: 6rem 0;
   border-radius: 1rem;
   text-align: center;
 }
@@ -153,7 +153,13 @@ hr {
 
 .ow {
   background-color: var(--off-white);
-  border: 3px outset #be185d;
+  border: 1px outset #be185d;
+}
+.pow{
+  border: 1px dashed #be185d;
+}
+.adjust-width{
+  max-width: 80%;
 }
 
 /** footers **/
@@ -165,6 +171,7 @@ hr {
   color:black;
   border-top-right-radius: 1rem;
   border-top-left-radius:1rem ;
+  margin-top:1.4rem;
  
 }
 
