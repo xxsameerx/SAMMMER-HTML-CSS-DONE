@@ -200,7 +200,7 @@ hr {
 }
 .button{
   background-color:white;
-  border: outset whitesmoke;
+  border: outset red;
   color: yellow;
   padding: 9px 8px;
   text-align: center;
