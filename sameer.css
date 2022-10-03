@@ -6,27 +6,27 @@
   --dark-gray: #ed38d2;
 }
 html{
-  font-size: 62.5%;
+  font-size: 70%;
 }
 @media(max-width:998px) {
   html{
-    font-size: 55%;
+    font-size: 65%;
   }
 
   
 }
-@media (max-width:900px)
+@media (max-width:800px)
 {
 
 html{
-  font-size: 50%;
+  font-size: 55%;
 }
 }
 @media (max-width:450px)
 {
 
 html{
-  font-size: 30%;
+  font-size: 40%;
 }
 }
 
@@ -160,8 +160,8 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-  color:#be185d
-  ;
+  color:white;
+  
 }
 
 /** sections **/
@@ -238,7 +238,7 @@ hr {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0.2rem 0.2rem;
   border-radius: 0.8rem;
   transition:ease-out 0.3s;
@@ -253,13 +253,14 @@ hr {
     background-color:var(--off-white);
   color:black;
   border: inset red;
-  padding: 1rem 1.8rem;
+  padding: 1rem 1.6rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border-radius: 0.8rem;
   transition:ease-out 0.3s;
+  margin-bottom: 0.5rem;
 }
 .blog-btn:hover{
   background-color:#be185d;
