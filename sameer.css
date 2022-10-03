@@ -68,6 +68,7 @@ hr {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  margin-top: 2rem;
 
 }
 
@@ -273,7 +274,7 @@ hr {
 
   .list-item-inline {
     display: inline;
-    padding: 0rem;
+    padding: 0.2rem;
   }
 
   .container-center {
